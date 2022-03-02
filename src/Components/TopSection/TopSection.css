@@ -1,0 +1,81 @@
+.topSectionContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 13%;
+  z-index: 99;
+}
+
+.logo {
+    margin: 0;
+    color: #fff;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.slogan {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0.6rem;
+}
+
+.paragraph {
+    margin: 0;
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size:1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    max-width: 30%;
+    text-align: center;
+}
+
+.donateButton {
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    background-color: green;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.donateButton:hover {
+    background-color: #2ee72e;
+}
+
+.lien:link {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.lien:visited {
+    color: #ffff;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    .slogan {
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    .paragraph {
+        max-width: 70%;
+    }
+}
