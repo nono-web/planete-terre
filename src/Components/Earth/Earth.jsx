@@ -21,8 +21,8 @@ const Earth = (props) => {
   useFrame (({ clock }) => {
     const elapsedTime = clock.getElapsedTime();
 
-    EarthRef.current.rotation.y = elapsedTime / 5;
-    cloudsRef.current.rotation.y = elapsedTime / 5;
+    EarthRef.current.rotation.y = elapsedTime / 6;
+    cloudsRef.current.rotation.y = elapsedTime / 6;
   })
 
   return (
