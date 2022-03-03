@@ -18,7 +18,7 @@ const TopSection = () => {
       </p>
       <button className="donateButton">
         <a className="lien" href="https://www.agirpourlenvironnement.org/" target="_blank">
-          Donner pour sauver la planéte !!!
+          Donner pour sauver la planète !!!
         </a>
       </button>
     </div>
